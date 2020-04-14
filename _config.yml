@@ -17,7 +17,7 @@ title: HJDataset
 description: >
   A Large Dataset of Historical Japanese Documents with Complex Layouts
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dell-research-harvard.github.io/HJDataset/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dell-research-harvard.github.io/HJDataset" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
