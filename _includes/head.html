@@ -23,7 +23,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/bulma.css">
+    <link rel="stylesheet" href={{ "/assets/css/bulma.css" | absolute_url }}>
+    
     <link rel="stylesheet" href="/assets/css/syntax/{{ site.code_theme }}.css">
     
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
