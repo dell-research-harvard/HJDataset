@@ -63,5 +63,3 @@ pagination:
   sort_reverse: true
 
 include: ['.test']
-
-theme: jekyll-theme-cayman
