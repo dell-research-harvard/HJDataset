@@ -1,0 +1,105 @@
+---
+---
+
+@charset "utf-8";
+
+// Font Issues
+// @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500|IBM+Plex+Serif|Cormorant+Garamond:600|Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed&display=swap');
+$family-primary: 'Merriweather', serif;
+$family-secondary: 'Frank Ruhl Libre', serif;
+$family-sans-serif: 'Roboto Condensed', sans-serif;
+
+// Size Issues 
+$footer-padding: 1rem 1.5rem 1rem;
+$footer-background-color: #f5f5f5; // hsl(0, 0%, 100%);
+$navbar-padding-vertical: 0.25rem;
+$navbar-height: 5rem;
+$divider-thickness: 0.075rem;
+$tabs-border-bottom-width: 0.075rem;
+
+// Layout Issues
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Import Bulma
+@import "bulma/bulma";
+@import "bulma-divider/src/sass/index";
+
+// Site and index page styles
+.site-title {
+    font-family: "Cormorant Garamond", sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.news-time {
+    font-family: $family-sans-serif;
+}
+
+// Article & posts styles
+article {
+    h1, h2, h3, h4, h5, h6 {
+    font-family: $family-secondary}
+}
+
+.article-list-date, .article-list-divider, .article-list-minutes {
+    font-family: $family-sans-serif;
+    color: $grey-light;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.article-list-author {
+    color: $black;
+    font-size: 1.05rem;
+    font-family: $family-sans-serif;
+}
+
+.article-list-divider {
+    margin: 0 15px;
+}
+
+.article-list-title {
+    font-family: $family-secondary;
+    font-weight: $weight-medium !important;
+    font-size: $size-5 !important;
+}
+
+.article-list-description {
+    margin-top: -0.1rem;
+}
+
+.article-list-footer {
+    margin-top: 0.5rem;
+}
+
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.content .highlight  {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+} // Because Bulma will change the default figure style.
+
+
+// Publication styles
+.publication-title {
+    font-family: $family-secondary;
+    font-weight: $weight-medium !important;
+    font-size: $size-5 !important;
+}
+
+.publication-name {
+    margin-top: -0.55rem;
+    font-family: $family-primary;
+    font-size: $size-6;
+}
+
+.publication-misc {
+    margin-top: -0.5rem;
+    font-size: $size-6;
+    font-family: $family-sans-serif;
+    color: $grey-light;
+}

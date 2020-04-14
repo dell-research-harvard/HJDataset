@@ -1,0 +1,9 @@
+{% if site.data.settings.disqus-ID %}
+    <div id="disqus_thread" class="article-comments"></div>
+    <script src="https://{{ site.data.settings.disqus-ID }}.disqus.com/embed.js" async defer></script>
+    <noscript>
+        <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+            comments powered by Disqus.
+        </a>
+    </noscript>
+{% endif %}

@@ -1,0 +1,18 @@
+<div class="article-list-footer">
+    {% for item in include.post.authors %}
+    <span class="article-list-author">
+        {{ item.name }}
+    </span>
+        {% if forloop.last != true %}
+        ,
+        {% endif %}
+    {% endfor %}
+    <!-- <span class="article-list-divider">-</span>
+    <span class="field is-grouped">
+        {% for tag in include.post.tags %}
+            <a class="tag">{{ tag | upcase }}</a>
+        {% endfor %}
+    </span> -->
+</div>
+
+

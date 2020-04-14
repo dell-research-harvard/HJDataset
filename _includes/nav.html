@@ -1,0 +1,31 @@
+<nav class="navbar" role="navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item site-title" href="/">
+            <strong>Zejiang Shen</strong>
+        </a>
+
+        <div class="navbar-burger" data-target="navbar-main"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar-main">
+        <div class="navbar-end">
+            <!-- navbar items -->
+            {% for item in site.data.settings.menu %}
+            <a href="/{{ item.file }}" class="navbar-item">{{ item.name }}</a>
+            {% endfor %}
+            <div class="navbar-item">
+                {% for item in site.data.settings.social %}
+                <a href="{{ item.link }}" class="button is-white">
+                    <i class="{{ item.icon }} fa-w-14 fa-lg" aria-hidden="true"></i>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 3rem;"></div>

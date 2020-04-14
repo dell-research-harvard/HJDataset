@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Zejiang Shen
+description: >
+  The portfolio website for Zejiang Shen.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.szj.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+code_theme: manni
+
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
+
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 6
+
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: '/blog/:num.html' # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files 
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: 'blog.html'
+  trail: 
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page
+  
+  sort_reverse: true
+
+include: ['.test']
