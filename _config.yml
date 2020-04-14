@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zejiang Shen
+title: HJDataset
 description: >
-  The portfolio website for Zejiang Shen.
+  A Large Dataset of Historical Japanese Documents with Complex Layouts
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.szj.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dell-research-harvard.github.io/HJDataset/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
