@@ -1,7 +1,8 @@
 <div class="article-list-footer">
     {% for item in include.post.authors %}
     <span class="article-list-author">
-        {{ item.name }}
+        <a href="{{item.website}}">{{ item.name }}</a>
+        <a href="mailto:{{item.email}}" class="has-text-grey-info"><i class="fas fa-envelope-square is-light"></i></a>
     </span>
         {% if forloop.last != true %}
         ,

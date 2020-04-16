@@ -4,8 +4,8 @@ show_nav: false
 
 title: "HJDataset : A Large Dataset of Historical Japanese Documents with Complex Layouts"
 authors: 
-- {name: "Zejiang Shen", afffilation: "Harvard University", email: "zejiang_shen@g.harvard.edu", website: "www.zsj.io"}
-- {name: "Kaixuan Zhang", afffilation: "Harvard University", email: "kaixuanzhang@fas.harvard.edu", website: ""}
+- {name: "Zejiang Shen", afffilation: "Harvard University", email: "zejiang_shen@g.harvard.edu", website: "https://www.szj.io"}
+- {name: "Kaixuan Zhang", afffilation: "Harvard University", email: "kaixuanzhang@fas.harvard.edu", website: "https://www.linkedin.com/in/kaixuan-zhang-731a16159/"}
 - {name: "Melissa Dell", afffilation: "Harvard University", email: "melissadell@fas.harvard.edu", website: "https://scholar.harvard.edu/dell/home"}
 short_name: HJDataset
 teaser_fig: /assets/teaser.png

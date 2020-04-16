@@ -4,8 +4,17 @@ layout: default
 
 <article class="content" style="margin-top: 3rem; margin-bottom: 4rem">
   <header class="article-header">
-      <h1>{{ page.title }}</h1>
-      {% include project/author.html post=page %}
+      <div class="columns">
+        <div class="column is-8">
+          <h1>{{ page.title }}</h1>
+          {% include project/author.html post=page %}
+        </div>
+        <div class="column is-4">
+          <figure class="image">
+            <img src='{{ "/assets/logo.png" | absolute_url }}'>
+          </figure>
+        </div>
+      </div>
   </header>
   <div class="is-divider" style="margin-top: 0.5rem; margin-bottom: 1.5rem;"></div>
   {{ content }}
