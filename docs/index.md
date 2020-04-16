@@ -26,8 +26,8 @@ Deep learning-based approaches for automatic document layout analysis and conten
 
 Please check this [link](https://www.dropbox.com/s/xkjcty50862zayt/annotations.zip?dl=0) to download the dataset. You may also find the following quick notes helpful when using HJDataset.
 
-- [Notes for Annotations](/annotation-notes.html)
-- [Reading Orders And Content Hierarchy](/reading-orders-and-hierarchy.html)
+- [Notes for Annotations](/annotation-notes)
+- [Reading Orders And Content Hierarchy](/reading-orders-and-hierarchy)
 
 
 ## Pretained Models 
