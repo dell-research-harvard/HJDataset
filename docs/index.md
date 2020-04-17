@@ -21,8 +21,7 @@ Deep learning-based approaches for automatic document layout analysis and conten
 
 ## Dataset 
 
-***Notice:** We are sorry that the images are not available currently. We are working on the copyright issues and it should be released soon.*
-
+***Notice:** Due to some copyright issues, we could not directly release the images. Please fill out [this form](https://forms.gle/9BYYgo9bAjLnq7RQA) to issue an request to download the images. Thank you!*
 
 Please check this [link](https://www.dropbox.com/s/xkjcty50862zayt/annotations.zip?dl=0) to download the dataset. You may also find the following quick notes helpful when using HJDataset.
 
@@ -42,4 +41,4 @@ We pretrained three models over the HJDataset, namely, Faster RCNN, Mask RCNN, a
 
 ## Copyright
 
-- **Annotations** in the dataset are released under the [Community Data License Agreement – Permissive – Version 1.0 License](https://cdla.io/permissive-1-0/).
+- **Annotations** in the dataset are released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
