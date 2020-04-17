@@ -26,7 +26,7 @@ This paper is accpeted at the CVPR2020 Workshop on [Text and Documents in the De
 
 ## Dataset 
 
-***Notice:** Due to some copyright issues, we could not directly release the images. Please fill out [this form](https://forms.gle/9BYYgo9bAjLnq7RQA) to issue an request to download the images. Thank you!*
+***Notice:** Due to some copyright issues, we could not directly release the images. Please fill out [this form](https://forms.gle/9BYYgo9bAjLnq7RQA) to issue a request to download the images. Thank you!*
 
 Please check this [link](https://www.dropbox.com/s/xkjcty50862zayt/annotations.zip?dl=0) to download the dataset. You may also find the following quick notes helpful when using HJDataset.
 
