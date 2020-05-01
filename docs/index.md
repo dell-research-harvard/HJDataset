@@ -24,6 +24,7 @@ Deep learning-based approaches for automatic document layout analysis and conten
 
 This paper is accpeted at the CVPR2020 Workshop on [Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com). You can find our preprints <a href="https://arxiv.org/abs/2004.08686">Here</a>.
 
+
 ## <i class="fas fa-file-download"></i> Dataset 
 
 ***Notice:** Due to some copyright issues, we could not directly release the images. Please fill out [this form](https://forms.gle/9BYYgo9bAjLnq7RQA) to issue a request to download the images. Thank you!*
@@ -32,6 +33,10 @@ Please check this [link](https://www.dropbox.com/s/xkjcty50862zayt/annotations.z
 
 - [Notes for Annotations]({{ "/annotation-notes.html" | absolute_url }})
 - [Reading Orders And Content Hierarchy]({{ "/reading-orders-and-hierarchy.html" | absolute_url }})
+
+## <i class="far fa-file-code"></i> Starter Code
+
+Please checkout [our github repository](https://github.com/dell-research-harvard/HJDataset/).
 
 
 ## <i class="fas fa-robot"></i> Pretained Models 
