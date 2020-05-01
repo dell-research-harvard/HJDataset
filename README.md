@@ -34,7 +34,7 @@ However, when installing [Detectron2](https://github.com/facebookresearch/detect
 
 ## Starter code
 
-We provide some starter code in [`notebooks/`](https://github.com/dell-research-harvard/HJDataset/notebooks). 
+We provide some starter code in [`notebooks/`](https://github.com/dell-research-harvard/HJDataset/tree/master/notebooks). 
 
 - `1-Dataloader and visualization.ipynb` illustrates how to use the dataloder class to load and visualize layout elements in HJDataset.
 - `2-Training Using Detectron2.ipynb` shows how to train segmentation models on the dataset using Detectron2.
