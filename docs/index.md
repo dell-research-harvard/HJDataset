@@ -36,7 +36,7 @@ Please check this [link](https://www.dropbox.com/s/xkjcty50862zayt/annotations.z
 
 ## <i class="far fa-file-code"></i> Starter Code
 
-Please checkout [our github repository](https://github.com/dell-research-harvard/HJDataset/).
+Please check [our github repository](https://github.com/dell-research-harvard/HJDataset/).
 
 
 ## <i class="fas fa-robot"></i> Pretained Models 
