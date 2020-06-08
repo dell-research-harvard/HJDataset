@@ -104,3 +104,17 @@ article {
     font-family: $family-sans-serif;
     color: $grey-light;
 }
+
+.video_container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 51%;
+  }
+
+.video_container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+}
